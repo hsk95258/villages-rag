@@ -7,4 +7,4 @@ if not os.path.exists("./chroma_db"):
 else:
     print("chroma_db found, skipping ingest.")
 
-os.system(f"uvicorn main:app --host 0.0.0.0 --port {os.getenv('PORT', 8000)}")
+os.system(f"uvicorn main:app --host 0.0.0.0 --port {os.getenv('PORT', 7860)}")
